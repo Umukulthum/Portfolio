@@ -59,6 +59,7 @@
 .image > img {
     max-width: 100%;
     max-height: 100%;
+    float: left;
 }
 
 .bio-container{
@@ -99,3 +100,54 @@
 .link{
     color: #d21034;
 }
+
+
+.contact-body{
+    background-color: #e9e7e7;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #333333;
+    margin: 0;
+    padding-top: 60px;
+}
+.card{
+    margin: 0 auto;
+    background-color: #fbf7f7;
+    border-radius: 2px;
+    padding: 20px;
+    width: 30%;
+    align-items: center;
+}
+.card-head{
+    text-align: center;
+}
+.contact-input{
+    width: 90%;
+    padding: 10px;
+    margin: 8px 2px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: medium;
+}
+textarea{
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contact-label{
+    padding: 5px 0px;
+    font-size: medium;
+}
+.contact-send-btn{
+    background-color: #a029a8;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: medium;
+    margin: 8px 2px;
+    display: inline-block;
+}
+.contact-send-btn:hover {
+    background-color: #de3ee9;
+  }
