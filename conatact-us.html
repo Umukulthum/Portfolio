@@ -24,7 +24,7 @@
         <input type="hidden" name="access_key" value="85adba35-c206-474d-9680-cebe7ac174f6">
         <input type="hidden" name="subject" value="New Submission from Umukulthum Portfolio">
         <input type="hidden" name="from_name" value="UKA Notification">
-        <input type="hidden" name="redirect" id="newUrl" value="https://umukulthum.github.io/portfolio/thank-you.html">
+        <input type="hidden" name="redirect" value="https://umukulthum.github.io/portfolio/thank-you.html">
         <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
         <br>
@@ -49,6 +49,6 @@
 </html>
 
 <script type="text/javascript">
-  document.getElementById("newUrl").value = location.hostname + "/thank-you.html";
-  console.log(url)
+  // document.getElementById("newUrl").value = location.hostname + "/thank-you.html";
+  console.log(location.hostname)
 </script>
