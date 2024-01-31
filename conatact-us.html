@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UKA - Contact Us</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="assets/styles.css" />
+    <script src="https://kit.fontawesome.com/8b08c4fe49.js" crossorigin="anonymous"></script>
+</head>
+<body class="contact-body">
+<div class="card">
+    <div class="card-head">
+        <h1>
+          Contact Us
+        </h1>
+        <p>
+          Fill up the form below to send us a message.
+        </p>
+      </div>
+      <div class="card-body">
+    <form action="https://api.web3forms.com/submit" method="POST">
+
+        <input type="hidden" name="access_key" value="85adba35-c206-474d-9680-cebe7ac174f6">
+        <input type="hidden" name="subject" value="New Submission from Umukulthum Portfolio">
+        <input type="hidden" name="from_name" value="UKA Notification">
+        <input type="hidden" name="redirect" id="newUrl" value="https://umukulthum.github.io/portfolio/thank-you.html">
+        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+        <br>
+        <label class="contact-label" for="name">Full Name:</label>
+        <input class="contact-input" type="text" id="name" name="name" placeholder="Full Name" required>
+        <br><br>
+
+        <label class="contact-label" for="email">Email Address:</label>
+        <input class="contact-input" type="email" id="email" name="email" placeholder="Email Address" required>
+        <br><br>
+
+        <label class="contact-label" for="message">Message:</label>
+        <textarea class="contact-input" id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+        <br><br>
+
+        <input class="contact-send-btn" type="submit" value="Send">
+
+    </form>
+      </div>
+</div>
+</body>
+</html>
+
+<script type="text/javascript">
+  document.getElementById("newUrl").value = location.hostname + "/thank-you.html";
+  console.log(url)
+</script>
