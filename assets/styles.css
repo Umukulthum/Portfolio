@@ -151,3 +151,12 @@ textarea{
 .contact-send-btn:hover {
     background-color: #de3ee9;
   }
+.thank-you-page{
+    margin: 0 auto;
+    text-align: center;
+    color: #333333;
+}
+.thank-you-page > i{
+    padding-top: 80px;
+    font-size: 250px;
+}
