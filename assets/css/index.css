@@ -5,6 +5,7 @@
 /* For a smooth scroll within page */
 html {
     scroll-behavior: smooth;
+    scroll-margin-top: -67px;
 }
 
 /* Set the default page properties and font */
@@ -201,5 +202,5 @@ left and content details on the right */
     /* Change the navigation bar background-color */
     .navbar {
         background: rgb(6, 12, 23);
-    }
+    } 
 }
