@@ -22,7 +22,9 @@ Media Queries was also used in setting different structures and colors to the we
 
 ## Screenshot
 ![image][page-1]
+
 ![image][page-2]
+
 ![image][page-3]
 
 ## Live
