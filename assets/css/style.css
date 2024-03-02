@@ -1,0 +1,111 @@
+.home {
+    background-image: url("../images/62801.jpg");
+}
+/* Changed Bootstrap default link and logo style */
+.nav-link {
+    color: white;
+    font-size:medium;
+    font-weight: bolder;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: navy;
+    background-color: white;
+}
+.navbar-brand {
+    font-size: xx-large;
+    font-weight: bolder;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.main {
+    background-image: url()no-repeat;
+    background-size: cover ;
+    width: 100%;
+    height: 95vh;
+    color: white;
+}
+.main h3 {
+    font-size: 4.4rem;
+    font-weight: 700;
+}
+.main h6 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    line-height: 1;
+}
+.main a {
+    height: 55px;
+    width: 138px;
+    text-decoration: none;
+}
+
+.btn-pry {
+    background-color: navy;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.btn-sec {
+    background-color: transparent;
+    color: navy;
+    border: 1px solid navy;
+    font-weight: bold;
+    border-radius: 5px;
+} 
+.btn-pry:hover {
+    background-color: rgb(224, 224, 231);
+    transition: 0.5s;
+    color: navy;
+}
+.btn-sec:hover {
+    background-color: navy;
+    color: white;
+    transition: 0.5s;
+}
+
+
+.about p {
+    font-size: large;
+}
+h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    color: navy;
+}
+.about span {
+    color: navy;
+}
+
+.project .btn-pry {
+    background-color: rgb(22, 22, 142);
+    color: white;
+    border-radius: 5px;
+}
+.project .btn-sec {
+    background-color: transparent;
+    color: rgb(22, 22, 142);
+    border: 1px solid rgb(22, 22, 142);
+    border-radius: 5px;
+} 
+.project .btn-pry:hover {
+    background-color: white;
+    transition: 0.5s;
+    color: rgb(22, 22, 142);
+    border: 1px solid rgb(22, 22, 142);
+}
+.project .btn-sec:hover {
+    background-color: rgb(22, 22, 142);
+    color: white;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
